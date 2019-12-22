@@ -6,7 +6,7 @@ Files I will use later. Skipping the header
 ## 3) Reading files x_test, y_test and subject_test
 Also skipping the header
 ## 4) Joining information with activity
-Use the merge () function, to join the data of y_test with activity_labels
+To join the data of y_test with activity_labels
 ## 5) Rename columns
 Rename the columns Vn to those corresponding to each data set
 ## 6) Joining all the test information

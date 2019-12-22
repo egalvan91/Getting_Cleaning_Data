@@ -15,7 +15,7 @@ run_analysis <- function(){
     subject_test <- read.table(file.path(getwd(), "UCI HAR Dataset/test/subject_test.txt"), header = FALSE)
 
     # Joining information with activity
-    activity_test <- activity_labels[y_test$V1, 2]
+    y_test$V1 <- activity_labels[y_test$V1, 2]
 
     # Rename columns
     names(x_test) <- features$V2
